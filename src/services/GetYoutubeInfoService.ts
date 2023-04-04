@@ -5,7 +5,7 @@ import { google } from 'googleapis';
 import { OAuth2Client } from 'googleapis-common';
 
 export default class GetYoutubeInfoService {
-    private readonly channelId = 'UCEQb3ajJgTK_Xr33OE0jeoQ'
+    private readonly channelId = 'UCP23R_PTop7BrRxmKMDU-4w'
 
     private content: InterfaceJsonContent;
     private redirectUrl = 'http://localhost:3000/oauth2callback';
